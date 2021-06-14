@@ -1,4 +1,8 @@
 19p 8s 10d + 21p 17s 8d = 41p 6s 6d 
+############################
+### TEST OPERATION #########
+############################
+
 11p 3s 5d + 22p 7s 3d = 33p 10s 8d
 20p 18s 7d + 42p 14s 6d = 63p 13s 1d
 14p 4s 6d + 38p 5s 11d = 52p 10s 5d
@@ -27,14 +31,3 @@
 1p 5s 10d / 3 = 0p 8s 7d (1d)
 8p 4s 11d / 5 = 1p 12s 11d (4d)
 1p 5s 10d / 7 = 0p 3s 8d (2d)
-
-
-
-
-
-
-#Price p1 = new Price(new Pound(0), new Shillings(19), new Pence(11));
-#Price p2 = new Price(new Pound(0), new Shillings(0), new Pence(1));
-#Operations<Result, Price, Integer> o = new OperationsImpl();
-#Result res = o.sum(p1, p2);
-#System.out.println(res.getPrice().toString());

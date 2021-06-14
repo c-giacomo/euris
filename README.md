@@ -4,19 +4,19 @@ Library for the calculation of the 4 fundamental operations (sum, multiplication
 
 You can import the .jar in another project and use the Operation interface method default implementation with Result Object. For Example:
 
-Operations<Result, Price, Integer> ops = new OperationsImpl();
-Result res = ops.sum(new Price(new Pound(5), new Shillings(5), new Pence(5)), new Price(new Pound(5), new Shillings(5), new Pence(5)));
+<i>Operations<Result, Price, Integer> ops = new OperationsImpl();
+Result res = ops.sum(new Price(new Pound(5), new Shillings(5), new Pence(5)), new Price(new Pound(5), new Shillings(5), new Pence(5)));</i>
 
 Or build the .jar with maven (run the tests if you want) and launch it as an app with:
 
-java -jar <jarname>.jar <params>
+  <i>java -jar <jarname>.jar <params></i>
   
 params sholud be a Price in the form Xp Ys Zd (or two) and an operation (+, -, *, /) for example:
   
-12p 5s 7d + 1p 4s 9d
+    <i>12p 5s 7d + 1p 4s 9d</i>
 
 Or
 
-12p 5s 7d * 3
+    <i>12p 5s 7d * 3</i>
   
 Clearly + is sum, - is substraction, * is multiplication, / is division and p, s and d means Pound, Shillings and Pence

@@ -1,0 +1,40 @@
+19p 8s 10d + 21p 17s 8d = 41p 6s 6d 
+11p 3s 5d + 22p 7s 3d = 33p 10s 8d
+20p 18s 7d + 42p 14s 6d = 63p 13s 1d
+14p 4s 6d + 38p 5s 11d = 52p 10s 5d
+15p 3s 4d + 50p 1s 4d = 65p 4s 8d
+6p 13s 8d + 37p 9s 7d = 44p 3s 3d
+9p 5s 11d + 3p 5s 7d = 12p 11s 6d
+0p 14s 9d + 2p 6s 3d = 3p 1s 0d
+
+23p 8s 10d - 21p 17s 8d = 1p 11s 2d
+24p 3s 5d - 22p 7s 3d = 1p 16s 2d
+20p 18s 7d - 42p 14s 6d = negative
+39p 4s 6d - 38p 5s 11d = 0p 18s 7d
+37p 13s 8d - 37p 9s 7d = 0p 4s 1d
+0p 0s 2d - 0p 0s 3d = negative
+
+5p 17s 8d * 2 = 11p 15s 4d
+23p 8s 10d * 4 = 93p 15s 4d
+7p 3s 5d * 4 = 28p 13s 8d
+11p 18s 7d * 4 = 47p 14s 4d
+5p 4s 6d * 4 = 20p 18s 0d
+8p 13s 8d * 4 = 34p 14s 8d
+
+5p 17s 8d / 3 = 1p 19s 2d (2d)
+18p 16s 1d / 15 = 1p 5s 0d (1s, 1d)
+6p 10s 11d / 3 = 2p 3s 7d (2d)
+1p 5s 10d / 3 = 0p 8s 7d (1d)
+8p 4s 11d / 5 = 1p 12s 11d (4d)
+1p 5s 10d / 7 = 0p 3s 8d (2d)
+
+
+
+
+
+
+#Price p1 = new Price(new Pound(0), new Shillings(19), new Pence(11));
+#Price p2 = new Price(new Pound(0), new Shillings(0), new Pence(1));
+#Operations<Result, Price, Integer> o = new OperationsImpl();
+#Result res = o.sum(p1, p2);
+#System.out.println(res.getPrice().toString());

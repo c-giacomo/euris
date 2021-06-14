@@ -9,7 +9,7 @@ You can import the .jar in another project and use the Operation interface metho
 
 Or build the .jar with maven (run the tests if you want) and launch it as an app with:
 
-  <i>java -jar <jarname>.jar <params></i>
+    java -jar [jarname].jar [params]
   
 params sholud be a Price in the form Xp Ys Zd (or two) and an operation (+, -, *, /) for example:
   

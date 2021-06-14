@@ -11,7 +11,7 @@ Or build the .jar with maven (run the tests if you want) and launch it as an app
 
     java -jar [jarname].jar [params]
   
-params sholud be a Price in the form Xp Ys Zd (or two) and an operation (+, -, *, /) for example:
+params sholud be a Price (or two) in the form Xp Ys Zd and an operation (+, -, *, /) for example:
   
     12p 5s 7d + 1p 4s 9d
 
